@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class main  
+{
+
+    public static void main(String[] args) 
+    {
+
+      Scanner input = new Scanner (System.in);  
+
+      String username;
+      String password;
+
+		System.out.println("Welcome to EP online Transport System!");
+      System.out.println("\n Please enter your Username and Password to Login.");    
+
+      System.out.println("Username: ");
+        username = input.nextLine();
+
+      System.out.println("Password: ");
+        password = input.nextLine();
+
+        UserAccount login = new UserAccount(username, password);
+
+        if(login.checkPassword())
+            System.out.println("You are logged in!");
+        else
+            System.out.println("The username and password you entered are incorrect.");
+    }
+
+
+}
