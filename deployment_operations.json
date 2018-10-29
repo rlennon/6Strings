@@ -1,0 +1,19 @@
+[
+  {
+    "id": "/subscriptions/7c45ae4c-7044-4085-88b9-80ba9ccf2802/resourceGroups/6Strings/providers/Microsoft.Resources/deployments/Microsoft.Azure.CosmosDB-20181024170602/operations/B2A9938E29ABD353",
+    "operationId": "B2A9938E29ABD353",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Running",
+      "timestamp": "2018-10-24T16:14:25.6961381Z",
+      "duration": "PT2.2203393S",
+      "trackingId": "fa0b822d-d9f9-42e0-8af2-5dfd43e330dd",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/7c45ae4c-7044-4085-88b9-80ba9ccf2802/resourceGroups/6Strings/providers/Microsoft.Resources/deployments/updateVirtualNetwork",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "updateVirtualNetwork"
+      }
+    }
+  }
+]
