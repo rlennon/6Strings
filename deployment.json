@@ -1,0 +1,59 @@
+{
+  "id": "/subscriptions/7c45ae4c-7044-4085-88b9-80ba9ccf2802/resourceGroups/6Strings/providers/Microsoft.Resources/deployments/Microsoft.Azure.CosmosDB-20181024170602",
+  "name": "Microsoft.Azure.CosmosDB-20181024170602",
+  "properties": {
+    "templateHash": "8638676136391562873",
+    "parameters": {
+      "name": {
+        "type": "String",
+        "value": "6stringsdb"
+      },
+      "location": {
+        "type": "String",
+        "value": "westeurope"
+      },
+      "locationName": {
+        "type": "String",
+        "value": "West Europe"
+      },
+      "defaultExperience": {
+        "type": "String",
+        "value": "MongoDB"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "RequestContent, ResponseContent"
+    },
+    "provisioningState": "Running",
+    "timestamp": "2018-10-24T16:14:23.3278418Z",
+    "duration": "PT0.8054509S",
+    "correlationId": "b0aa36a7-fedb-42c9-a93e-8e56adc1e0bd",
+    "providers": [
+      {
+        "namespace": "Microsoft.Resources",
+        "resourceTypes": [
+          {
+            "resourceType": "deployments",
+            "locations": [
+              null
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.DocumentDb",
+        "resourceTypes": [
+          {
+            "resourceType": "databaseAccounts",
+            "locations": [
+              "westeurope"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "validationLevel": "Template"
+  }
+}
