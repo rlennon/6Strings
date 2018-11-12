@@ -14,14 +14,18 @@ public class Location
     Location link;
     ArrayList<Vehicle> vehicles;
 
+    private String locationName;
+    private boolean maxTanks = false, maxTrains = false;
+    public Location(String locName, boolean atMaxCapTanks, boolean atMaxCapTrains){
+       locationName = locName;
+       maxTanks = atMaxCapTanks;
+       maxTrains = atMaxCapTrains;
+    }
+
     Location() {
         this.link = null;
     }
-
-
     Location (Location link) {
-
         this.link = link;
-
     }
 }
