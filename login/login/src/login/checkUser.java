@@ -3,7 +3,28 @@
  */
 package login;
 
+loginBranch2
+import com.mongodb.MongoClient;
+import com.mongodb.MongoClientURI;
+import com.mongodb.ServerAddress;
+
+import com.mongodb.client.MongoDatabase;
+import com.mongodb.client.MongoCollection;
+
+import org.bson.Document;
+import java.util.Arrays;
+import com.mongodb.Block;
+
+import com.mongodb.client.MongoCursor;
+import static com.mongodb.client.model.Filters.*;
+import com.mongodb.client.result.DeleteResult;
+import static com.mongodb.client.model.Updates.*;
+import com.mongodb.client.result.UpdateResult;
+import java.util.ArrayList;
+import java.util.List;
+=======
 import java.util.Scanner;
+ Dev
 
 /**
  * @author whori
@@ -16,6 +37,20 @@ public class checkUser {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+ loginBranch2
+			Scanner input = new Scanner (System.in);  
+
+			String username, password;
+			boolean auth;
+
+			//System.out.println("Welcome to EP online Transport System!");
+			System.out.print("\nPlease enter your Username and Password to Login.");    
+
+			System.out.print("\nUsername: ");
+	        username = input.nextLine();
+
+	        System.out.print("Password: ");
+=======
 
 			Scanner input = new Scanner (System.in);  
 
@@ -29,6 +64,7 @@ public class checkUser {
 	        username = input.nextLine();
 
 	      System.out.print("Password: ");
+ Dev
 	        password = input.nextLine();
 	        
 	        Authenticator authUser = new Authenticator();
