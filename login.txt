@@ -10,7 +10,7 @@ public class main
       String username;
       String password;
 
-		System.out.println("Welcome to EP online Transport System!");
+		System.out.println("Welcome to Espiro Online Transport System!");
       System.out.println("\n Please enter your Username and Password to Login.");    
 
       System.out.println("Username: ");
@@ -22,7 +22,7 @@ public class main
         UserAccount login = new UserAccount(username, password);
 
         if(login.checkPassword())
-            System.out.println("You are logged in!");
+            System.out.println("Welcome to the Main Menu of Espiro Online Transport!");
         else
             System.out.println("The username and password you entered are incorrect.");
     }
