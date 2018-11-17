@@ -1,0 +1,14 @@
+#create rocket collection
+db.createCollection("rockets");
+
+#insert document
+db.rockets.insert({
+	_id: "V2"
+	type: "rocket"
+	minions: 2,
+	},
+
+	_id: "Heat Seeker",
+	type: "advanced rocket"
+	minions: 5,
+	})
