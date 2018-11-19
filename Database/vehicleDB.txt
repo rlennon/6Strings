@@ -1,0 +1,33 @@
+#create vehicle collection
+db.createCollection("vehicles");
+
+#insert document
+db.vehicles.insert({
+	_id: "12DL181",
+	vehicleType: "Tank"
+	minions: 0,
+	rockets: 0,
+	advRockects: 0
+	},
+
+	_id: "70DL131",
+	vehicleType: "Tank"
+	minions: 0,
+	rockets: 0,
+	advRockects: 0
+	},
+
+	_id: "97 80 8194",
+	vehicleType: "Train"
+	minions: 0,
+	rockets: 0,
+	advRockects: 0
+	},
+
+	_id: "94 51 2140",
+	vehicleType: "Train"
+	minions: 0,
+	rockets: 0,
+	advRockects: 0
+	})
+	
